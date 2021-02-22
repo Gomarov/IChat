@@ -5,6 +5,75 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>46629FA7-75E5-4331-A1A1-FA801DEC8880</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>46629FA7-75E5-4331-A1A1-FA801DEC8880.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>IChat project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>IChat</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run IChat</string>
+			<key>timeStartedRecording</key>
+			<real>635700983.52252698</real>
+			<key>timeStoppedRecording</key>
+			<real>635701007.68402398</real>
+			<key>title</key>
+			<string>Run IChat</string>
+			<key>uniqueIdentifier</key>
+			<string>46629FA7-75E5-4331-A1A1-FA801DEC8880</string>
+		</dict>
+		<key>F2EEE436-12B6-467A-AF7E-866C665A1EBB</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>F2EEE436-12B6-467A-AF7E-866C665A1EBB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>IChat project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>IChat</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run IChat</string>
+			<key>timeStartedRecording</key>
+			<real>635699368.89552999</real>
+			<key>timeStoppedRecording</key>
+			<real>635699411.70401502</real>
+			<key>title</key>
+			<string>Run IChat</string>
+			<key>uniqueIdentifier</key>
+			<string>F2EEE436-12B6-467A-AF7E-866C665A1EBB</string>
+		</dict>
+	</dict>
 </dict>
 </plist>

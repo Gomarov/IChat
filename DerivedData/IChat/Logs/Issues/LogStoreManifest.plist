@@ -5,7 +5,36 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>BF1A6074-9239-4727-ADBC-44038BA3944B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>BF1A6074-9239-4727-ADBC-44038BA3944B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>IChat-fxnpfufuuezfcwfcjpukzabktfmu</string>
+			<key>timeStartedRecording</key>
+			<real>635701484.70672405</real>
+			<key>timeStoppedRecording</key>
+			<real>635701486.12010205</real>
+			<key>title</key>
+			<string>Build target IChat</string>
+			<key>uniqueIdentifier</key>
+			<string>BF1A6074-9239-4727-ADBC-44038BA3944B</string>
+		</dict>
+	</dict>
 	<key>preserveOldLogs</key>
 	<true/>
 </dict>
