@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>87A390C5-B0D8-45CC-A6F0-C314404A790F</key>
+		<key>624E5B8E-0EEA-4609-A74E-00976080963C</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>87A390C5-B0D8-45CC-A6F0-C314404A790F.xcactivitylog</string>
+			<string>624E5B8E-0EEA-4609-A74E-00976080963C.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -26,13 +26,13 @@
 			<key>signature</key>
 			<string>IChat-fxnpfufuuezfcwfcjpukzabktfmu</string>
 			<key>timeStartedRecording</key>
-			<real>635798284.26651001</real>
+			<real>635885006.59354603</real>
 			<key>timeStoppedRecording</key>
-			<real>635798285.49807799</real>
+			<real>635885008.61255598</real>
 			<key>title</key>
 			<string>Build target IChat</string>
 			<key>uniqueIdentifier</key>
-			<string>87A390C5-B0D8-45CC-A6F0-C314404A790F</string>
+			<string>624E5B8E-0EEA-4609-A74E-00976080963C</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>
