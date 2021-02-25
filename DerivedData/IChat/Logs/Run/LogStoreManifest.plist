@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>5CA58726-3B8B-4E91-A0E8-4A4630380540</key>
+		<key>0E94F615-319E-40E4-A302-7E49A9FC90C0</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>5CA58726-3B8B-4E91-A0E8-4A4630380540.xcactivitylog</string>
+			<string>0E94F615-319E-40E4-A302-7E49A9FC90C0.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,15 +32,15 @@
 			<key>signature</key>
 			<string>Run IChat</string>
 			<key>timeStartedRecording</key>
-			<real>635798197.68565905</real>
+			<real>635966310.3973</real>
 			<key>timeStoppedRecording</key>
-			<real>635798454.88589501</real>
+			<real>635966907.45826602</real>
 			<key>title</key>
 			<string>Run IChat</string>
 			<key>uniqueIdentifier</key>
-			<string>5CA58726-3B8B-4E91-A0E8-4A4630380540</string>
+			<string>0E94F615-319E-40E4-A302-7E49A9FC90C0</string>
 		</dict>
-		<key>6B32BF49-7223-4A0B-BC8C-D8DAC11A2C5C</key>
+		<key>15CBFDF2-37CD-42EF-9248-9781D30BB519</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -49,7 +49,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>6B32BF49-7223-4A0B-BC8C-D8DAC11A2C5C.xcactivitylog</string>
+			<string>15CBFDF2-37CD-42EF-9248-9781D30BB519.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -66,15 +66,15 @@
 			<key>signature</key>
 			<string>Run IChat</string>
 			<key>timeStartedRecording</key>
-			<real>635877322.59026206</real>
+			<real>635878866.25373602</real>
 			<key>timeStoppedRecording</key>
-			<real>635878864.27176595</real>
+			<real>635885406.05272698</real>
 			<key>title</key>
 			<string>Run IChat</string>
 			<key>uniqueIdentifier</key>
-			<string>6B32BF49-7223-4A0B-BC8C-D8DAC11A2C5C</string>
+			<string>15CBFDF2-37CD-42EF-9248-9781D30BB519</string>
 		</dict>
-		<key>F5175560-AD5E-4D80-9756-6CEA49C5F1B5</key>
+		<key>323B3938-9C59-4F45-9E1E-3CDB2702DC08</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -83,7 +83,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>F5175560-AD5E-4D80-9756-6CEA49C5F1B5.xcactivitylog</string>
+			<string>323B3938-9C59-4F45-9E1E-3CDB2702DC08.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -100,13 +100,251 @@
 			<key>signature</key>
 			<string>Run IChat</string>
 			<key>timeStartedRecording</key>
-			<real>635877107.74910498</real>
+			<real>635972130.18587399</real>
 			<key>timeStoppedRecording</key>
-			<real>635877322.75953698</real>
+			<real>635972208.787678</real>
 			<key>title</key>
 			<string>Run IChat</string>
 			<key>uniqueIdentifier</key>
-			<string>F5175560-AD5E-4D80-9756-6CEA49C5F1B5</string>
+			<string>323B3938-9C59-4F45-9E1E-3CDB2702DC08</string>
+		</dict>
+		<key>41CB1389-5AD9-4E30-A17A-85DB76ABE4BF</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>41CB1389-5AD9-4E30-A17A-85DB76ABE4BF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>IChat project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>IChat</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run IChat</string>
+			<key>timeStartedRecording</key>
+			<real>635966020.09260595</real>
+			<key>timeStoppedRecording</key>
+			<real>635966185.44142306</real>
+			<key>title</key>
+			<string>Run IChat</string>
+			<key>uniqueIdentifier</key>
+			<string>41CB1389-5AD9-4E30-A17A-85DB76ABE4BF</string>
+		</dict>
+		<key>58D15649-B049-41DC-9219-A4CB84A1F91B</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>58D15649-B049-41DC-9219-A4CB84A1F91B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>IChat project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>IChat</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run IChat</string>
+			<key>timeStartedRecording</key>
+			<real>635971240.82281101</real>
+			<key>timeStoppedRecording</key>
+			<real>635971361.53982997</real>
+			<key>title</key>
+			<string>Run IChat</string>
+			<key>uniqueIdentifier</key>
+			<string>58D15649-B049-41DC-9219-A4CB84A1F91B</string>
+		</dict>
+		<key>5ABD69D4-EE58-4E4A-9E48-F3FF33CE737B</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>5ABD69D4-EE58-4E4A-9E48-F3FF33CE737B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>IChat project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>IChat</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run IChat</string>
+			<key>timeStartedRecording</key>
+			<real>635971178.83741498</real>
+			<key>timeStoppedRecording</key>
+			<real>635971239.26797402</real>
+			<key>title</key>
+			<string>Run IChat</string>
+			<key>uniqueIdentifier</key>
+			<string>5ABD69D4-EE58-4E4A-9E48-F3FF33CE737B</string>
+		</dict>
+		<key>64FC2885-4712-4F50-8BC9-50EA2D57AD45</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>64FC2885-4712-4F50-8BC9-50EA2D57AD45.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>IChat project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>IChat</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run IChat</string>
+			<key>timeStartedRecording</key>
+			<real>635966908.20418203</real>
+			<key>timeStoppedRecording</key>
+			<real>635967103.36649096</real>
+			<key>title</key>
+			<string>Run IChat</string>
+			<key>uniqueIdentifier</key>
+			<string>64FC2885-4712-4F50-8BC9-50EA2D57AD45</string>
+		</dict>
+		<key>77E63166-475A-43D9-81A7-CF3FE9828404</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>77E63166-475A-43D9-81A7-CF3FE9828404.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>IChat project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>IChat</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run IChat</string>
+			<key>timeStartedRecording</key>
+			<real>635971003.83013904</real>
+			<key>timeStoppedRecording</key>
+			<real>635971177.39464104</real>
+			<key>title</key>
+			<string>Run IChat</string>
+			<key>uniqueIdentifier</key>
+			<string>77E63166-475A-43D9-81A7-CF3FE9828404</string>
+		</dict>
+		<key>7B1D8A54-A042-4ACF-8C81-75B51D0A6066</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>7B1D8A54-A042-4ACF-8C81-75B51D0A6066.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>IChat project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>IChat</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run IChat</string>
+			<key>timeStartedRecording</key>
+			<real>635971363.07070601</real>
+			<key>timeStoppedRecording</key>
+			<real>635972125.12453997</real>
+			<key>title</key>
+			<string>Run IChat</string>
+			<key>uniqueIdentifier</key>
+			<string>7B1D8A54-A042-4ACF-8C81-75B51D0A6066</string>
+		</dict>
+		<key>E2A0D413-FA69-454E-B2F4-1B1040BD7293</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>E2A0D413-FA69-454E-B2F4-1B1040BD7293.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>IChat project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>IChat</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run IChat</string>
+			<key>timeStartedRecording</key>
+			<real>635966271.76940799</real>
+			<key>timeStoppedRecording</key>
+			<real>635966308.78748</real>
+			<key>title</key>
+			<string>Run IChat</string>
+			<key>uniqueIdentifier</key>
+			<string>E2A0D413-FA69-454E-B2F4-1B1040BD7293</string>
 		</dict>
 	</dict>
 </dict>
