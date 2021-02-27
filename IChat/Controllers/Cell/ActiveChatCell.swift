@@ -7,18 +7,15 @@
 
 import UIKit
 
-protocol SelfConfiguringCell {
-    static var reuseId: String { get }
-    func configure(with value: MChat)
-}
-
 class ActiveChatCell: UICollectionViewCell, SelfConfiguringCell {
+
+    
     static var reuseId: String = "ActiveChatCell"
     
-    let frinedImageView = UIImageView()
+    let friendImageView = UIImageView()
     let friendName = UILabel(text: "User name", font: .laoSangamMN20())
     let lastMessage = UILabel(text: "How are you?", font: .laoSangamMN18())
-    let gradientView = UIView()
+    let gradientView = GradientView(from: .topTrailing, to: .bottomLeading, startColor: #colorLiteral(red: 0.7882352941, green: 0.631372549, blue: 0.9411764706, alpha: 1), endColor: #colorLiteral(red: 0.4784313725, green: 0.6980392157, blue: 0.9215686275, alpha: 1))
     
     override init(frame: CGRect) {
     super.init(frame: frame)
@@ -29,10 +26,11 @@ class ActiveChatCell: UICollectionViewCell, SelfConfiguringCell {
         self.clipsToBounds = true
     }
     
-    func configure(with value: MChat) {
-        frinedImageView.image = UIImage(named: value.userImageString)
-        friendName.text = value.username
-        lastMessage.text = value.lastMessage
+    func configure<U>(with value: U) where U : Hashable {
+        guard let chat: MChat = value as? MChat else { return }
+        friendImageView.image = UIImage(named: chat.userImageString)
+        friendName.text = chat.username
+        lastMessage.text = chat.lastMessage
     }
     
     required init?(coder: NSCoder) {
@@ -43,36 +41,36 @@ class ActiveChatCell: UICollectionViewCell, SelfConfiguringCell {
 // MARK: - Setup constraints
 extension ActiveChatCell {
     private func setupConstraints() {
-        frinedImageView.translatesAutoresizingMaskIntoConstraints = false
+        friendImageView.translatesAutoresizingMaskIntoConstraints = false
         friendName.translatesAutoresizingMaskIntoConstraints = false
         lastMessage.translatesAutoresizingMaskIntoConstraints = false
         gradientView.translatesAutoresizingMaskIntoConstraints = false
         
-        frinedImageView.backgroundColor = .orange
+        friendImageView.backgroundColor = .orange
         gradientView.backgroundColor = .black
         
-        addSubview(frinedImageView)
+        addSubview(friendImageView)
         addSubview(gradientView)
         addSubview(friendName)
         addSubview(lastMessage)
         
         NSLayoutConstraint.activate([
-            frinedImageView.leadingAnchor.constraint(equalTo: self.leadingAnchor),
-            frinedImageView.centerYAnchor.constraint(equalTo: self.centerYAnchor),
-            frinedImageView.heightAnchor.constraint(equalToConstant: 78),
-            frinedImageView.widthAnchor.constraint(equalToConstant: 78)
+            friendImageView.leadingAnchor.constraint(equalTo: self.leadingAnchor),
+            friendImageView.centerYAnchor.constraint(equalTo: self.centerYAnchor),
+            friendImageView.heightAnchor.constraint(equalToConstant: 78),
+            friendImageView.widthAnchor.constraint(equalToConstant: 78)
         ])
         
         NSLayoutConstraint.activate([
             friendName.topAnchor.constraint(equalTo: self.topAnchor, constant: 10),
-            friendName.leadingAnchor.constraint(equalTo: frinedImageView.trailingAnchor, constant: 16),
+            friendName.leadingAnchor.constraint(equalTo: friendImageView.trailingAnchor, constant: 16),
             friendName.trailingAnchor.constraint(equalTo: gradientView.leadingAnchor, constant: 16)
             
         ])
         
         NSLayoutConstraint.activate([
             lastMessage.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -10),
-            lastMessage.leadingAnchor.constraint(equalTo: frinedImageView.trailingAnchor, constant: 16),
+            lastMessage.leadingAnchor.constraint(equalTo: friendImageView.trailingAnchor, constant: 16),
             lastMessage.trailingAnchor.constraint(equalTo: gradientView.leadingAnchor, constant: 16)
         ])
         
