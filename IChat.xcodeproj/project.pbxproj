@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E90FCE8425EBEBD0008AD87D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90FCE8325EBEBD0008AD87D /* ProfileViewController.swift */; };
+		E90FCE8725EBF28D008AD87D /* InsertableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90FCE8625EBF28D008AD87D /* InsertableTextField.swift */; };
+		E90FCE8B25EBF64A008AD87D /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90FCE8A25EBF64A008AD87D /* UIView + Extension.swift */; };
+		E90FCE8E25EC050B008AD87D /* ChatRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90FCE8D25EC050B008AD87D /* ChatRequestViewController.swift */; };
 		E921CD8225EA340900480B8C /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E921CD8125EA340900480B8C /* GradientView.swift */; };
 		E921CD8525EA3AC800480B8C /* WaitingChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E921CD8425EA3AC800480B8C /* WaitingChatCell.swift */; };
 		E921CD8D25EA3CA000480B8C /* SelfConfiguringCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E921CD8C25EA3CA000480B8C /* SelfConfiguringCell.swift */; };
@@ -44,6 +48,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E90FCE8325EBEBD0008AD87D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		E90FCE8625EBF28D008AD87D /* InsertableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertableTextField.swift; sourceTree = "<group>"; };
+		E90FCE8A25EBF64A008AD87D /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
+		E90FCE8D25EC050B008AD87D /* ChatRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRequestViewController.swift; sourceTree = "<group>"; };
 		E921CD8125EA340900480B8C /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		E921CD8425EA3AC800480B8C /* WaitingChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingChatCell.swift; sourceTree = "<group>"; };
 		E921CD8C25EA3CA000480B8C /* SelfConfiguringCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfConfiguringCell.swift; sourceTree = "<group>"; };
@@ -145,6 +153,8 @@
 				E9CBD8B625E576C800185F3C /* MainTapBarController.swift */,
 				E9CBD8AF25E5738800185F3C /* ListViewController.swift */,
 				E9CBD8B925E5772D00185F3C /* PeoplesViewController.swift */,
+				E90FCE8325EBEBD0008AD87D /* ProfileViewController.swift */,
+				E90FCE8D25EC050B008AD87D /* ChatRequestViewController.swift */,
 				E92A284625E803CD0042C1D0 /* Cell */,
 				E99D954225EA611B00AC8F01 /* Header */,
 			);
@@ -191,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				E9D8B04825E4087C001478F4 /* UIButton + Extension.swift */,
+				E90FCE8A25EBF64A008AD87D /* UIView + Extension.swift */,
 				E9DC92F925E40CB200EEE959 /* UIFont + Extension.swift */,
 				E9DC92FC25E40D8F00EEE959 /* UIColor + Extension.swift */,
 				E9DC930325E4151B00EEE959 /* UIImageView + Extension.swift */,
@@ -210,6 +221,7 @@
 				E9CBD8A825E54F5100185F3C /* AddPhotoView.swift */,
 				E92A284B25E8063E0042C1D0 /* Bundle-Decodable.swift */,
 				E921CD8125EA340900480B8C /* GradientView.swift */,
+				E90FCE8625EBF28D008AD87D /* InsertableTextField.swift */,
 				E9DC930625E4177000EEE959 /* UIKit */,
 			);
 			path = Extensions;
@@ -297,14 +309,18 @@
 				E99D954A25EA6A3A00AC8F01 /* MUser.swift in Sources */,
 				E9CBD89725E522B600185F3C /* SignUpViewController.swift in Sources */,
 				E92A284C25E8063E0042C1D0 /* Bundle-Decodable.swift in Sources */,
+				E90FCE8725EBF28D008AD87D /* InsertableTextField.swift in Sources */,
 				E9DC92FA25E40CB200EEE959 /* UIFont + Extension.swift in Sources */,
 				E9D8B03525E3FF78001478F4 /* AuthViewController.swift in Sources */,
+				E90FCE8425EBEBD0008AD87D /* ProfileViewController.swift in Sources */,
 				E9CBD8A525E5486E00185F3C /* SetupProfileViewController.swift in Sources */,
+				E90FCE8E25EC050B008AD87D /* ChatRequestViewController.swift in Sources */,
 				E9DC930025E4140F00EEE959 /* Label + Extension.swift in Sources */,
 				E9CBD88E25E41A3900185F3C /* ButtonFormView.swift in Sources */,
 				E9CBD8A925E54F5100185F3C /* AddPhotoView.swift in Sources */,
 				E9D8B03125E3FF78001478F4 /* AppDelegate.swift in Sources */,
 				E9DC930425E4151B00EEE959 /* UIImageView + Extension.swift in Sources */,
+				E90FCE8B25EBF64A008AD87D /* UIView + Extension.swift in Sources */,
 				E9CBD8AD25E56C9A00185F3C /* SegmentedControl + Extension.swift in Sources */,
 				E9DC92FD25E40D8F00EEE959 /* UIColor + Extension.swift in Sources */,
 				E99D955425EA7A8400AC8F01 /* UserCell.swift in Sources */,
