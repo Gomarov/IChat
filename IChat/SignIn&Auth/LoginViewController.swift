@@ -37,6 +37,20 @@ class LoginViewController: UIViewController{
         view.backgroundColor = .white
         setupConstraints()
         
+        loginButton.addTarget(self, action: #selector(loginButtonTapped), for: .touchUpInside)
+    }
+    
+    @objc private func loginButtonTapped() {
+        print(#function)
+        AuthService.shared.login(email: emailTextField.text!,
+                                 password: passwordTextField.text!) { (result) in
+            switch result {
+            case .success(let user):
+                self.showAlert(with: "Success!", and: "You are successfully logged in!")
+            case .failure(let error):
+                self.showAlert(with: "Error!", and: error.localizedDescription)
+            }
+        }
     }
 }
 
